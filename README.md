@@ -1,9 +1,6 @@
 # insta-likes
 macros to be used with the browser extension "ui.vision"
 
-the file "insta-likes.json" will cycle thro profiles and will 
-like 5 of the most recent pictures on the profile each profile.
-
 the "insta-likes" macro will like the most recent 5 posts on one profile
 it will cycle thro 13 profiles that you select and usually takes 2mins finish
 you can run it as many times as you want on as many profiles as you 
