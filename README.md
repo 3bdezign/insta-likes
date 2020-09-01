@@ -34,7 +34,7 @@ click the folder icon at the top and choose "import json" (1.png)
 
 # howto
 
-- you have to open each profile you want to like pictures on in a new tab (2.png)
+- you have to open each profile in its own tab.(2.png)
 
 - an easy way to do this, is to open a list of followers or a list of 
 likes on a picture.(4.png) you can scroll down the list and while holding ctrl and just click 
