@@ -5,8 +5,7 @@ the "insta-likes" macro will like the most recent 5 posts on one profile
 it will cycle thro 13 profiles that you select and usually takes 2mins finish
 you can run it as many times as you want on as many profiles as you 
 
-the "insta-like-all" macro will like all the posts on one profile
-and can usually do 60-70 likes until the browser lags out
+the "insta-like-all" macro will like all the posts on one profile (tested 800+)
 
 # setup
 
@@ -50,11 +49,8 @@ profiles you will like pictures on, instead of liking a bunch of dead profiles p
 
 # known issues
 
-not use the mouse while macro is running(cursor will rubberband)
+do not use the mouse while macro is running(cursor will rubberband)
 
-the browser will lag out and not load posts anymore at around 60-70 likes
-you must restart browser to continue(idk)
-
-wont work? 
+# wont work? 
 
 open an issue or contact me here https://www.instagram.com/3bdezign/
