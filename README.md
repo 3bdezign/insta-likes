@@ -1,56 +1,68 @@
-# insta-likes
-macros to be used with the browser extension "ui.vision"
+# INSTA-LIKES
 
-the "insta-likes" macro will like the most recent 5 posts on one profile
-it will cycle thro 13 profiles that you select and usually takes 2mins finish
-you can run it as many times as you want on as many profiles as you 
+is a couple macros to be used with the browser extension "ui.vision" https://ui.vision.com/
 
-the "insta-like-all" macro will like all the posts on one profile (tested 800+)
+the 2 macros here stored here are for instagram https://www.instagram.com/ 
 
-# setup
+#### what does it do? <br> well it will click the like button on the five most recent post on an account <br> it will then repeat this process on 15 accounts of your choosing. 
 
-- install ui.vision browser extesion 
-(this is used to run macros and edit them)
-firefox = https://addons.mozilla.org/en-US/firefox/addon/rpa/?src=search
-chrome = https://chrome.google.com/webstore/detail/uivision-rpa/gcbalfbdmfieckjlnblleoemohcganoc?hl=en
+# SETUP
 
-- install the x-module plugin: https://ui.vision/rpa/x/download
-(this allows the macro to use computer vision)
+- install browser extesion "ui.vision": 
+    *used to run the macros and edit them*
 
-- download 3bs macros https://github.com/3bdezign/insta-likes
-(the macros)
+chrome
+	https://addons.mozilla.org/en-US/firefox/addon/rpa/?src=search
 
-- open the ui.vision exstension in your web browser 
+firefox
+	https://chrome.google.com/webstore/detail/uivision-rpa/gcbalfbdmfieckjlnblleoemohcganoc
 
-- in the ui.exstension window you will see a list of macros on the left 
+- install the x-module plugin from the "ui.vision" website:
+	*this is a small tool that is needed for the macro to work*
+
+	https://ui.vision/rpa/x/download
+
+- download 3bs "insta-likes" repo from github: 
+	*macros*
+
+	https://github.com/3bdezign/insta-likes
+
+- open the "ui.vision" exstension in your web browser 
+
+- the ui.exstensionwill open in seperate window and you will see a list of macros on the left 
 click the folder icon at the top and choose "import json" (1.png)
 
-- in the select file window browse too the location you saved the downloaded macros in. select them and open
+- now browse for the file downloaded from github it will be in ".zip" file.  you must unzip the file 
+then select the macro file 
 
-- now in the ui.vision window on the left in the list of macros you should see "insta-like" and "insta-like-all"
+- in the ui.vision window now on the left in the list of macros you will see "insta-likes" and "insta-likes-all"
 
-- select "insta-like" like so it populate the name here (3.png) 
+- select "insta-likes" so it populate the name here (3.png)  
 
+# HOW TO 
 
-# howto
+## you must open each account in its own new tab.(2.png)
 
-- you have to open each profile in its own tab.(2.png)
+- an easy way to do this may be to open a list of followers or a list of 
+likes on a post.(4.png) and scroll down the list while holding ..ctrl.. and then ..click.. 
+on the accounts you wish to like posts on and each will be opened in a new tab. 
 
-- an easy way to do this, is to open a list of followers or a list of 
-likes on a picture.(4.png) you can scroll down the list and while holding ctrl and just click 
-on profiles which will then open each profile open in a new tab. 
-(the reason this part is manually done is so you can pick more carefully which 
-profiles you will like pictures on, instead of liking a bunch of dead profiles pics)
-(12-15 tabs is usually what most machines can handle at one time)
+## now select the first tab in your browser (2.png)
 
-- now select the first tab in your browser (2.png)
+## now in the "ui.vision" window at the top click "play macro" and step back
 
-- finnally in the ui.vision window at the top click "play macro"
+# KNOWN ISSUES
 
-# known issues
+15 tabs is usually what most pcs or the browsers can handle at a time
+so you must close the tabs the tabs when it completes the macro.\
+(will update macro too close all tabs when completed some day)
+
+**this is manually done right now by me so i can cherry pick which 
+accounts too like posts on.  
+you can easily edit the macro allow the input of a ".csv" file containting acct names
 
 do not use the mouse while macro is running(cursor will rubberband)
 
-# wont work? 
+# NOT WORKING? 
 
 open an issue or contact me here https://www.instagram.com/3bdezign/
