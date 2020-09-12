@@ -41,15 +41,14 @@ then select the macro file
 
 # HOW TO 
 
-## you must open each account in its own new tab.(2.png)
+- all you must do now is open each account in its own new tab.(2.png)
+    an easy way to do this may be to open a list of followers or a list of 
+    likes on a post.(4.png) and scroll down the list while holding ..ctrl.. and then ..click.. 
+    on the accounts you wish to like posts on and each will be opened in a new tab. 
 
-- an easy way to do this may be to open a list of followers or a list of 
-likes on a post.(4.png) and scroll down the list while holding ..ctrl.. and then ..click.. 
-on the accounts you wish to like posts on and each will be opened in a new tab. 
+- select the first tab in your browser (2.png)
 
-## now select the first tab in your browser (2.png)
-
-## now in the "ui.vision" window at the top click "play macro" and step back
+- in the "ui.vision" window at the top click "play macro" and let it do its thing.
 
 # KNOWN ISSUES
 
@@ -57,7 +56,7 @@ on the accounts you wish to like posts on and each will be opened in a new tab.
 so you must close the tabs the tabs when it completes the macro.\
 (will update macro too close all tabs when completed some day)
 
-**this is manually done right now by me so i can cherry pick which 
+this is manually done right now by me so i can cherry pick which 
 accounts too like posts on.  
 you can easily edit the macro allow the input of a ".csv" file containting acct names
 
