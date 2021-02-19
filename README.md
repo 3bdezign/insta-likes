@@ -1,67 +1,53 @@
-# INSTA-LIKES
+# INSTA-LIKE-ALL
 
-is a couple macros to be used with the browser extension "ui.vision" https://ui.vision.com/
-
-the 2 macros here stored here are for instagram https://www.instagram.com/ 
-
-#### what does it do? <br> well it will click the like button on the five most recent post on an account <br> it will then repeat this process on 15 accounts of your choosing. 
+#### what does it do? <br> it will like every photo on an instagram #hashtag page. 100+ posts at a time.  
 
 # SETUP
 
-- install browser extesion "ui.vision": 
-    *used to run the macros and edit them*
+- Install browser extesion "ui.vision":  https://ui.vision.com/
+    *used to run the macro and editing*
+    - Chrome: https://chrome.google.com/webstore/detail/uivision-rpa/gcbalfbdmfieckjlnblleoemohcganoc
+    - Firefox: https://addons.mozilla.org/en-US/firefox/addon/rpa/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search
 
-chrome
-	https://addons.mozilla.org/en-US/firefox/addon/rpa/?src=search
+- Install the x-module plugin from the "ui.vision" website: https://ui.vision/rpa/x/download
+	*needed for function used in macro*
 
-firefox
-	https://chrome.google.com/webstore/detail/uivision-rpa/gcbalfbdmfieckjlnblleoemohcganoc
+- Download 3b "insta-likes-all" repo from github: https://github.com/3bdezign/insta-likes
+	* .json file containing code*
+	
+# PREPAREATION
 
-- install the x-module plugin from the "ui.vision" website:
-	*this is a small tool that is needed for the macro to work*
+- Open the "ui.vision" exstension in your web browser 
 
-	https://ui.vision/rpa/x/download
+- The ui.exstension will open in its own window and you will see a list of macros in the left pane
 
-- download 3bs "insta-likes" repo from github: 
-	*macros*
+- Click on the icon with an image of a folder+ then choose "import json" (1.png)
 
-	https://github.com/3bdezign/insta-likes
+- Browse to the "insta-like-all" file you downloaded from github.  *it may be in a ".zip" file.  If so unzip with windows.*
 
-- open the "ui.vision" exstension in your web browser 
+- Now inside the "ui.vision" window youwill see the macro "insta-like-all"
 
-- the ui.exstensionwill open in seperate window and you will see a list of macros on the left 
-click the folder icon at the top and choose "import json" (1.png)
+- Select "insta-like-all" so it populate the name here (3.png)  
 
-- now browse for the file downloaded from github it will be in ".zip" file.  you must unzip the file 
-then select the macro file 
-
-- in the ui.vision window now on the left in the list of macros you will see "insta-likes" and "insta-likes-all"
-
-- select "insta-likes" so it populate the name here (3.png)  
+- Now close the "ui.vision" window. 
 
 # HOW TO 
 
-- all you must do now is open each account in its own new tab.(2.png)
-    an easy way to do this may be to open a list of followers or a list of 
-    likes on a post.(4.png) and scroll down the list while holding ..ctrl.. and then ..click.. 
-    on the accounts you wish to like posts on and each will be opened in a new tab. 
+- Make sure you open a new browser window.  
 
-- select the first tab in your browser (2.png)
+- Venture to instagram.com and find a #hashtag page that is popular in your niche.
 
-- in the "ui.vision" window at the top click "play macro" and let it do its thing.
+- Once on the #hashtag page simply click the first post in the list.
 
-# KNOWN ISSUES
+- Now open the "ui.vision" extension and select the "insta-like-all" macro we added earlier.<br>
+*may have to click "Storage Mode" and select "on hard drive"
 
-15 tabs is usually what most pcs or the browsers can handle at a time
-so you must close the tabs the tabs when it completes the macro.\
-(will update macro too close all tabs when completed some day)
+- Now click "play macro" located at the top right side of the "ui.vision" window.
 
-this is manually done right now by me so i can cherry pick which 
-accounts too like posts on.  
-you can easily edit the macro allow the input of a ".csv" file containting acct names
+# RESTRICTIONS
 
-do not use the mouse while macro is running(cursor will rubberband)
+- Can only have one browser tab open during running of macro.
 
 # NOT WORKING? 
 
-open an issue or contact me here https://www.instagram.com/3bdezign/
+open an issue or contact me here https://www.instagram.com/3bprints/
